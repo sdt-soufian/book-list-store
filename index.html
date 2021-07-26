@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library management</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">&#128214; Books List</h1>
+    </header>
+    <section>
+        <div class="div-form">
+            <form>
+                <div class="form-group">
+                    <div class="form-control">
+                        <div class="icon-form" id="name-icon"></div>
+                        <input type="text" name="book" id="bookName" placeholder="Book name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-control">
+                        <div class="icon-form" id="auteur-icon"></div>
+                        <input type="text" name="auteur" id="auteurName" placeholder="Auteur name" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-control">
+                        <div class="icon-form" id="edition-icon"></div>
+                        <input type="number" name="edition" id="bookEdition" placeholder="Edition" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-control">
+                        <div class="icon-form" id="page-icon"></div>
+                        <input type="number" name="page" id="nbrPage" placeholder="Nombre de page" required>
+                    </div>
+                </div>
+
+                <button type="submit" id="btn-ajout">
+                    <img src="images/save-file.png" alt="save">
+                </button>
+            </form>
+        </div>
+        <div class="div-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Book name</th>
+                        <th>Auteur</th>
+                        <th>Edition</th>
+                        <th>Nombre de page</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
